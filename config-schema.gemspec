@@ -14,9 +14,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = %w[ lib ]
 
   gem.add_dependency 'hashie'
-  gem.add_dependency 'json-schema'
-
-  gem.add_development_dependency 'rspec', '>= 0'
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'bundler'
+  gem.add_dependency 'json-schema', '~> 2.8', '>= 2.8.1'
 end

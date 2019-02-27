@@ -1,0 +1,17 @@
+nohup.out
+
+*.swl
+*.swp
+*.swo
+*.swn
+*.swm
+*.orig
+
+*.gem
+
+.bundle
+
+/vendor/ruby
+/vendor/bundle
+/vendor/cache/*
+!/vendor/cache/*.gem

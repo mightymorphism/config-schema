@@ -1,4 +1,4 @@
-# Copyright (c) 2017-2019 Trough Creek Holdings, LLC.  All Rights Reserved
+# Copyright (c) 2017-2019 Trough Creek Holdings, LLC.  All Rights Reserved.
 
 require 'json-schema'
 

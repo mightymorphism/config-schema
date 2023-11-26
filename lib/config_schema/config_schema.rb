@@ -1,4 +1,4 @@
-# Copyright (c) 2017-2019 Trough Creek Holdings, LLC.  All Rights Reserved.
+# Copyright (c) 2017-2023 Trough Creek Holdings, LLC.  All Rights Reserved.
 
 require 'json-schema'
 
@@ -56,7 +56,7 @@ class ConfigSchema
 
   def self.define_schema(name)
     file_name = Rails.root.join('config/schemas', name + '.json')
-    if !File.exists?(file_name) then
+    if !File.exist?(file_name) then
       raise ArgumentError.new("no such schema: #{name.inspect}")
     end
 
